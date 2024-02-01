@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.nav{
+    overflow: hidden;
+    background-color:#333;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+.nav h1{
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: aliceblue;
+    padding-left: 10px;
+}
+.nav a{
+    float: right;
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    padding: 25px 16px;
+    font-size: 17px;
+}
+.name{
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+    height: 300px;
+    width: 100%;
+    font-size: 50px;
+    color: black;
+    z-index: -1;
+    
+}
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    max-height: 600px;
+    z-index: -1;
+}
+.categoryintro{
+    padding-top: 700px;
+}
+.categoryintro h1{
+    position: relative;
+    text-align: center;
+    font-size:50px;
+}
+.categoryintro p{
+    text-align: center;
+    font-size: 20px;
+}
+.category{
+    padding-top: 50px;
+}
+.phantom {
+    width: 35%;
+    height: 200px;
+    background-color: rgb(249, 246, 246);
+    margin-left: 150px;
+    
+}
+.phantom img{
+    width: 300px;
+    height: 200px;
+    padding-left: 100px;
+}
+
+.phantom h1{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.phantom a{
+    text-decoration: none;
+}
+.ghost{
+    width: 35%;
+    height: 200px;
+    background-color: rgb(249, 246, 246);
+    margin-left: 800px;
+    margin-top: 10px;
+}
+.ghost h1{
+    padding-left: 5%;
+    padding-top: 5%;
+}   
+.ghost a{
+    text-decoration: none;
+}
+.ghost img{
+    width: 300px;
+    height: 200px;
+    padding-left: 100px;
+}
+.wraith {
+    width: 35%;
+    height: 200px;
+    background-color: rgb(249, 246, 246);
+    margin-left: 150px;
+    
+}
+
+.wraith h1{
+    padding-left: 5%;
+    padding-top: 5%;
+} 
+.wraith a{
+    text-decoration: none;
+} 
+.wraith img{
+    width: 350px;
+    height: 200px;
+    padding-left: 100px;
+}
+.dawn {
+    width: 35%;
+    height: 200px;
+    background-color: rgb(249, 246, 246);
+    margin-left: 800px;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.dawn h1{
+    padding-left: 5%;
+    padding-top: 5%;
+} 
+.dawn a{
+    text-decoration: none;
+}  
+.dawn img{
+    width: 350px;
+    height: 200px;
+    padding-left: 100px;
+}
+.cullinan {
+    width: 35%;
+    height: 200px;
+    background-color: rgb(249, 246, 246);
+    margin-left: 150px;
+}
+
+.cullinan h1{
+    padding-left: 5%;
+    padding-top: 5%;
+}  
+.cullinan a{
+    text-decoration: none;
+}
+.cullinan img{
+    width: 350px;
+    height: 250px;
+    padding-left: 100px;
+}
+.footer{
+    width: 100%;
+    background-color:rgb(43, 43, 43);
+    color: #9b8ae0;
+    display: flex;
+    margin-top: 200px;
+    height: 350px;
+} 
+.footer div{
+    text-align: center;
+} 
+.footer_one{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.footer_one a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.last{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 15px;
+}
+

@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(Photos/12.jpg);
+
+}
+.nav{
+    overflow: hidden;
+    background-color:#333;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+.nav h1{
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: aliceblue;
+    padding-left: 10px;
+}
+.nav a{
+    float: right;
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    padding: 25px 16px;
+    font-size: 17px;
+}
+.name{
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+    height: 600px;
+    width: 100%;
+    font-size: 50px;
+    color:gray;
+    z-index: -1;
+    font-family: Lucida Handwriting;
+    
+}
+.name h1{
+    color: black;
+}
+.name p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin: 80px auto auto auto;
+    width: 500px;
+}
+.form{
+ height: 300px;
+ margin-left: 600px;
+ margin-top: 100px;
+ color: beige;
+}
+.submit{
+    margin-left: 50px;
+       
+}
+      
+
+.footer{
+    width: 100%;
+    background-color:rgb(43, 43, 43);
+    color: #9b8ae0;
+    display: flex;
+    margin-top: 200px;
+    height: 350px;
+} 
+.footer div{
+    text-align: center;
+} 
+.footer_one{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.footer_one a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.last{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 15px;
+}
+
